@@ -3,11 +3,12 @@
 @tailwind utilities;
 
 body {
+  margin-left: 12%;
+  margin-right: 12%;
   @apply bg-darkGray text-lightGrey;
 }
 
-.wrapper {
-  margin-left: 12%;
-  margin-right: 12%;
+.content {
+  max-width: 960px;
+  @apply mx-auto;
 }
-
