@@ -1,7 +1,7 @@
 const Footer = () => {
   return ( 
-    <div>
-      <p>Copyright &copy; SDB 2022</p>
+    <div className="my-6 flex justify-center items-center">
+      <small>Copyright &copy; SDB 2022</small>
     </div>
   );
 }

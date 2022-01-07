@@ -3,6 +3,11 @@
 @tailwind utilities;
 
 body {
-  @apply bg-darkGray text-lightGrey
-
+  @apply bg-darkGray text-lightGrey;
 }
+
+.wrapper {
+  margin-left: 12%;
+  margin-right: 12%;
+}
+
