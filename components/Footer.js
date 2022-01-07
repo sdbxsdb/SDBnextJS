@@ -3,7 +3,7 @@ const Footer = () => {
     <div>
       <p>Copyright &copy; SDB 2022</p>
     </div>
-   );
+  );
 }
 
 export default Footer;
