@@ -1,6 +1,4 @@
-.container {
-  @apply border border-blue-300 p-5;
-}
+
 
 .btn {
   @apply my-6 bg-blue-300 text-darkGray px-5 py-3 rounded-2xl;
