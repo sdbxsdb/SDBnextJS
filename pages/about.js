@@ -2,7 +2,8 @@ import Head from 'next/head'
 
 const About = () => {
   return ( 
-    <>
+    //Below is a fragment just surrounding everything in one element
+    <>  
     <Head>
       <title>Home | Sam Donaghy-Bell</title>
       <meta name="keywords" content="About" />
