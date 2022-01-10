@@ -1,12 +1,14 @@
 import Link from 'next/link'
+import Image from 'next/image'
 
 const Navbar = () => {
   return (
-    <nav className="mb-12 py-8">
+    <nav className="mb-12 pt-8 border-b">
       <div className="w-full flex justify-center">
         <Link href="/">
-          <a>
+          <a className="flex flex-col justify-center items-center">
             <h1>Sam Donaghy-Bell | CV</h1>
+            <Image src="/sam_avatar_no_bg.png" width="83" height="79"  />
           </a>
         </Link>
       </div>

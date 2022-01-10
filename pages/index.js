@@ -5,6 +5,12 @@ import Link from 'next/link'
 
 export default function Home() {
   return (
+    <>
+    <Head>
+      <title>Home | Sam Donaghy-Bell</title>
+      <meta name="keywords" content="Test" />
+      <meta name="description" content="Hello this is a test description for the home page" />
+    </Head>
     <div className={styles.container}>
 
       <h1 className="text-3xl mb-12">Home page</h1>
@@ -19,5 +25,6 @@ export default function Home() {
       </div>
 
     </div>
+    </>
   )
 }
