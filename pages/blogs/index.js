@@ -1,6 +1,6 @@
 import Link from 'next/link'
 
-export const getServerSideProps = async () => {
+export const getStaticProps = async () => {
 
   const res = await fetch('https://www.googleapis.com/blogger/v3/blogs/543125446417715626/posts?key=AIzaSyBi0m3EdpabwT1EAKfV2zU7loUoS9S_7SU');
 
@@ -9,7 +9,8 @@ export const getServerSideProps = async () => {
   // console.log(data.items);
 
   return {
-    props: { blogs: data.items }
+    props: { blogs: data.items }, 
+    revalidate: 1
   }
 
 }

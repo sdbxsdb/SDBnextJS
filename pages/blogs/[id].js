@@ -1,4 +1,3 @@
-import parse from 'html-react-parser'
 
 
 export const getStaticPaths = async () => {
@@ -14,19 +13,27 @@ export const getStaticPaths = async () => {
 
   return {
     paths,
-    fallback: false
+    fallback: "blocking"
   }
 }
 
 export const getStaticProps = async (context) => {
-  const id = context.params.id;
-  const res = await fetch('https://www.googleapis.com/blogger/v3/blogs/543125446417715626/posts/' + id + '?key=AIzaSyBi0m3EdpabwT1EAKfV2zU7loUoS9S_7SU');
-  const data = await res.json();
 
+    const id = context.params.id;
+    const res = await fetch('https://www.googleapis.com/blogger/v3/blogs/543125446417715626/posts/' + id + '?key=AIzaSyBi0m3EdpabwT1EAKfV2zU7loUoS9S_7SU');
+    const data = await res.json();
 
-  return {
-    props: { blog: data }
-  }
+    if (data.error) {
+      return {
+        notFound: true,
+      }
+    }
+
+    return {
+      props: { blog: data },
+      revalidate: 1
+    }
+
 }
 
 
@@ -41,7 +48,7 @@ const Details = ({ blog }) => {
 
       <h3>{blog.title}</h3>
 
-        {parse(text)}
+        <div dangerouslySetInnerHTML={{__html: text}}/>
 
     </div>
   );
