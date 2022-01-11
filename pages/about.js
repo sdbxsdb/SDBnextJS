@@ -9,9 +9,40 @@ const About = () => {
       <meta name="keywords" content="About" />
       <meta name="description" content="Hello this is a test description for the About page" />
     </Head>
-    <div>
-      <h1 className="text-3xl mb-12">About</h1>
-      <p>lorem ipsum lorem ipsum lorem ipsumorem ipsum lorem ipsum lorem ipsumorem ipsum lorem ipsum lorem ipsumorem ipsum lorem ipsum lorem ipsumorem ipsum lorem ipsum lorem ipsumorem ipsum lorem ipsum lorem ipsumorem ipsum lorem ipsum lorem ipsumorem ipsum lorem ipsum lorem ipsum</p>
+    <div className="">
+
+      <h1 className="text-3xl mb-12">Hi! My name's Sam Donaghy-Bell</h1>
+
+      <p>I’m a former film & TV drama camera engineer of 12 years turned self-taught developer.</p>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates eos dolore adipisci nobis aperiam assumenda fugiat repellendus obcaecati voluptatibus sequi esse dignissimos, a distinctio quis nostrum minus quasi facilis id.</p>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates eos dolore adipisci nobis aperiam assumenda fugiat repellendus obcaecati voluptatibus sequi esse dignissimos, a distinctio quis nostrum minus quasi facilis id.</p>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates eos dolore adipisci nobis aperiam assumenda fugiat repellendus obcaecati voluptatibus sequi esse dignissimos, a distinctio quis nostrum minus quasi facilis id.</p>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates eos dolore adipisci nobis aperiam assumenda fugiat repellendus obcaecati voluptatibus sequi esse dignissimos, a distinctio quis nostrum minus quasi facilis id.</p>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates eos dolore adipisci nobis aperiam assumenda fugiat repellendus obcaecati voluptatibus sequi esse dignissimos, a distinctio quis nostrum minus quasi facilis id.</p>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates eos dolore adipisci nobis aperiam assumenda fugiat repellendus obcaecati voluptatibus sequi esse dignissimos, a distinctio quis nostrum minus quasi facilis id.</p>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates eos dolore adipisci nobis aperiam assumenda fugiat repellendus obcaecati voluptatibus sequi esse dignissimos, a distinctio quis nostrum minus quasi facilis id.</p>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates eos dolore adipisci nobis aperiam assumenda fugiat repellendus obcaecati voluptatibus sequi esse dignissimos, a distinctio quis nostrum minus quasi facilis id.</p>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates eos dolore adipisci nobis aperiam assumenda fugiat repellendus obcaecati voluptatibus sequi esse dignissimos, a distinctio quis nostrum minus quasi facilis id.</p>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates eos dolore adipisci nobis aperiam assumenda fugiat repellendus obcaecati voluptatibus sequi esse dignissimos, a distinctio quis nostrum minus quasi facilis id.</p>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates eos dolore adipisci nobis aperiam assumenda fugiat repellendus obcaecati voluptatibus sequi esse dignissimos, a distinctio quis nostrum minus quasi facilis id.</p>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates eos dolore adipisci nobis aperiam assumenda fugiat repellendus obcaecati voluptatibus sequi esse dignissimos, a distinctio quis nostrum minus quasi facilis id.</p>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates eos dolore adipisci nobis aperiam assumenda fugiat repellendus obcaecati voluptatibus sequi esse dignissimos, a distinctio quis nostrum minus quasi facilis id.</p>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates eos dolore adipisci nobis aperiam assumenda fugiat repellendus obcaecati voluptatibus sequi esse dignissimos, a distinctio quis nostrum minus quasi facilis id.</p>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates eos dolore adipisci nobis aperiam assumenda fugiat repellendus obcaecati voluptatibus sequi esse dignissimos, a distinctio quis nostrum minus quasi facilis id.</p>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates eos dolore adipisci nobis aperiam assumenda fugiat repellendus obcaecati voluptatibus sequi esse dignissimos, a distinctio quis nostrum minus quasi facilis id.</p>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates eos dolore adipisci nobis aperiam assumenda fugiat repellendus obcaecati voluptatibus sequi esse dignissimos, a distinctio quis nostrum minus quasi facilis id.</p>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates eos dolore adipisci nobis aperiam assumenda fugiat repellendus obcaecati voluptatibus sequi esse dignissimos, a distinctio quis nostrum minus quasi facilis id.</p>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates eos dolore adipisci nobis aperiam assumenda fugiat repellendus obcaecati voluptatibus sequi esse dignissimos, a distinctio quis nostrum minus quasi facilis id.</p>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates eos dolore adipisci nobis aperiam assumenda fugiat repellendus obcaecati voluptatibus sequi esse dignissimos, a distinctio quis nostrum minus quasi facilis id.</p>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates eos dolore adipisci nobis aperiam assumenda fugiat repellendus obcaecati voluptatibus sequi esse dignissimos, a distinctio quis nostrum minus quasi facilis id.</p>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates eos dolore adipisci nobis aperiam assumenda fugiat repellendus obcaecati voluptatibus sequi esse dignissimos, a distinctio quis nostrum minus quasi facilis id.</p>
+      
+      {/* <div className="w-full flex justify-center">
+        <Link href="/projects">
+            <a className={styles.btn}>Projects</a>
+        </Link>
+      </div> */}
+
     </div>
     </>
   );

@@ -12,18 +12,26 @@ export default function Home() {
       <meta name="keywords" content="Test" />
       <meta name="description" content="Hello this is a test description for the home page" />
     </Head>
-    <div className={styles.container}>
+    <div className="bg-black flex justify-between w-full">
 
-      <h1 className="text-3xl mb-12">Home page</h1>
 
-      <p>lorem ipsum dolor sit amet, consectetur adipNostrud commodo quis nisi reprehenderit Lorem. Velit non aute qui do id exercitation dolore nisi non aliqua. Minim laborum ut incididunt anim nisi occaecat aliqua quis.</p>
-      <p>lorem ipsum dolor sit amet, consectetur adipNostrud commodo quis nisi reprehenderit Lorem. Velit non aute qui do id exercitation dolore nisi non aliqua. Minim laborum ut incididunt anim nisi occaecat aliqua quis.</p>
+      <div className="">
+        <img src="/sdbavatarloopedcropped.gif" className="" width="250" />
+      </div>
 
-      <div className="w-full flex justify-center">
+
+      <div className="flex flex-1 ml-4 flex-col">
+        <h1 className="text-3xl mb-12">Welcome!</h1>
+        <h2>👈  That's me...</h2>
+        <p>I'm a </p>
+      </div>
+      
+      
+      {/* <div className="w-full flex justify-center">
         <Link href="/projects">
             <a className={styles.btn}>Projects</a>
         </Link>
-      </div>
+      </div> */}
 
     </div>
     </>

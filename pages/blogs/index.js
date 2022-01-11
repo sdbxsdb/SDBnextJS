@@ -1,6 +1,6 @@
 import Link from 'next/link'
 
-export const getStaticProps = async () => {
+export const getServerSideProps = async () => {
 
   const res = await fetch('https://www.googleapis.com/blogger/v3/blogs/543125446417715626/posts?key=AIzaSyBi0m3EdpabwT1EAKfV2zU7loUoS9S_7SU');
 

@@ -9,11 +9,12 @@ function MyApp({ Component, pageProps }) {
 
   return (
 
-      <div className="dark:bg-darkGray dark:text-lightGrey bg-lightGrey text-darkGrey transition">
+      <div className="">
         <Layout>
-          <div className="flex flex-1 max-w-[960px] mx-auto ">
-          
-            <Component {...pageProps} />
+          <div className="flex flex-1 dark:bg-black dark:text-lightGrey bg-lightGrey text-darkGrey transition  w-full justify-center px-12">
+            <div className="max-w-[960px] w-full pt-40">
+              <Component {...pageProps} />
+            </div>
           </div>
         </Layout>
       </div>
