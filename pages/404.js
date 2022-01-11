@@ -12,7 +12,7 @@ const NotFound = () => {
       router.push('/');
     }, 3000)
 
-  }, []) 
+  }, [router]) 
 
   return (
     <div className="notFound w-full flex flex-col justify center items-center">
