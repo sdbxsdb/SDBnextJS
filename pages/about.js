@@ -11,9 +11,9 @@ const About = () => {
     </Head>
     <div className="">
 
-      <h1 className="text-3xl mb-12">Hi! My name's Sam Donaghy-Bell</h1>
+      <h1 className="text-3xl mb-12">Hi! My name&apos;s Sam Donaghy-Bell</h1>
 
-      <p>I’m a former film & TV drama camera engineer of 12 years turned self-taught developer.</p>
+      <p>I&apos;m a former film & TV drama camera engineer of 12 years turned self-taught developer.</p>
       <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates eos dolore adipisci nobis aperiam assumenda fugiat repellendus obcaecati voluptatibus sequi esse dignissimos, a distinctio quis nostrum minus quasi facilis id.</p>
       <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates eos dolore adipisci nobis aperiam assumenda fugiat repellendus obcaecati voluptatibus sequi esse dignissimos, a distinctio quis nostrum minus quasi facilis id.</p>
       <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates eos dolore adipisci nobis aperiam assumenda fugiat repellendus obcaecati voluptatibus sequi esse dignissimos, a distinctio quis nostrum minus quasi facilis id.</p>

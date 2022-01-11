@@ -22,8 +22,8 @@ export default function Home() {
 
       <div className="flex flex-1 ml-4 flex-col">
         <h1 className="text-3xl mb-12">Welcome!</h1>
-        <h2>👈  That's me...</h2>
-        <p>I'm a </p>
+        <h2>👈  That&apos;s me...</h2>
+        <p>I&apos;m a </p>
       </div>
       
       
