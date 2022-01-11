@@ -9,7 +9,8 @@ export const getStaticProps = async () => {
   // console.log(data.items);
 
   return {
-    props: { blogs: data.items }
+    props: { blogs: data.items }, 
+    revalidate: 1
   }
 
 }
