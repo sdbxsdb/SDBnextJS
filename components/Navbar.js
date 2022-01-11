@@ -14,7 +14,6 @@ const Navbar = () => {
           <a className="flex flex-col justify-center items-center">
             <h1>Sam Donaghy-Bell | CV</h1>
             <Image src="/sam_avatar_no_bg.png" width="83" height="79" />
-            <video src="/avatarVideo.mov"></video>
           </a>
         </Link>
       </div>
