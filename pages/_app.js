@@ -7,7 +7,7 @@ function MyApp({ Component, pageProps }) {
 
   return (
 
-      <div className="dark:bg-darkGray dark:text-lightGrey bg-lightGrey text-darkGrey">
+      <div className="bg-darkGray text-lightGrey dark:bg-lightGrey dark:text-darkGray transition">
         <Layout>
           <div className="flex flex-1 max-w-[960px] mx-auto ">
           

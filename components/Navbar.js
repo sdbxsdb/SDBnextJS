@@ -3,9 +3,12 @@ import Image from "next/image";
 import useDarkMode from "../useDarkMode";
 import Head from "next/head";
 
+
+// FLIP DARK MODE ROUND!!!!!!
+
 const Navbar = () => {
   const [colorTheme, setTheme] = useDarkMode();
-
+  
   return (
     <nav className="mb-12 pt-8 border-b">
       <div className="w-full flex justify-center">
@@ -33,9 +36,9 @@ const Navbar = () => {
         </div>
 
         <button className="darkLightMode absolute top-10 right-10">
-          {colorTheme === "light" ? (
+          {colorTheme === "dark" ? (
             <svg
-              onClick={() => setTheme("light")}
+              onClick={() => setTheme("dark")}
               xmlns="http://www.w3.org/2000/svg"
               className="h-6 w-6"
               fill="none"
@@ -51,7 +54,7 @@ const Navbar = () => {
             </svg>
           ) : (
             <svg
-              onClick={() => setTheme("dark")}
+              onClick={() => setTheme("light")}
               xmlns="http://www.w3.org/2000/svg"
               className="h-6 w-6"
               fill="none"
