@@ -6,6 +6,7 @@ import Head from "next/head";
 const Navbar = () => {
   const [colorTheme, setTheme] = useDarkMode();
 
+
   return (
     <nav className="mb-12 pt-8 border-b">
       <div className="w-full flex justify-center">
@@ -13,6 +14,7 @@ const Navbar = () => {
           <a className="flex flex-col justify-center items-center">
             <h1>Sam Donaghy-Bell | CV</h1>
             <Image src="/sam_avatar_no_bg.png" width="83" height="79" />
+            <video src="/avatarVideo.mov"></video>
           </a>
         </Link>
       </div>
