@@ -16,8 +16,8 @@ const Projects = () => {
             image="/skills/cssLogo.png"
             content="
             <div>
-              <p>I'm well versed in vanilla CSS, SASS and SCSS. I always try to reduce, reuse and recycle classes and variables where possible.
-              <br><br>I'm very familiar with flexbox, :nth and CSS grids. <br><br> I also really enjoy building custom CSS animations and hover effects.</p> 
+              <p>I&apos;m well versed in vanilla CSS, SASS and SCSS. I always try to reduce, reuse and recycle classes and variables where possible.
+              <br><br>I&apos;m very familiar with flexbox, :nth and CSS grids. <br><br> I also really enjoy building custom CSS animations and hover effects.</p> 
             </div>"
             />
       <Card title="JS" 
@@ -26,7 +26,7 @@ const Projects = () => {
             content="
             <p >
             I love the literally endless capabilities of this language. <br><br>
-            I'm well versed in vanilla JS as well as jQuery and it's many plugins. Whether via CND or NPM. <br><br>
+            I&apos;m well versed in vanilla JS as well as jQuery and it&apos;s many plugins. Whether via CND or NPM. <br><br>
             Some recent projects have required: <br><br>
           <div >
             <li>- Form submissions via AJAX</li><br>
