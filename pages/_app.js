@@ -12,7 +12,7 @@ function MyApp({ Component, pageProps }) {
       <div className="">
         <Layout>
           <div className="flex flex-1 dark:bg-black dark:text-lightGrey bg-lightGrey text-darkGrey transition  w-full justify-center px-12">
-            <div className="max-w-[960px] w-full pt-40">
+            <div className="max-w-[960px] w-full mt-[113px] pt-12">
               <Component {...pageProps} />
             </div>
           </div>

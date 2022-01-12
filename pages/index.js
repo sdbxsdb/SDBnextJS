@@ -12,7 +12,7 @@ export default function Home() {
       <meta name="keywords" content="Test" />
       <meta name="description" content="Hello this is a test description for the home page" />
     </Head>
-    <div className="bg-black flex justify-between w-full ">
+    <div className="bg-black flex justify-between items-center w-full h-full">
 
 
       <div className="">
@@ -20,12 +20,12 @@ export default function Home() {
       </div>
 
 
-      <div className="flex flex-1 ml-4 flex-col justify-center ">
-        <div className=" h-12">
+      <div className="flex flex-1 ml-4 flex-col justify-center">
+        {/* <div className=" h-12">
           <h1 className="text-3xl mb-12">Welcome!</h1>
-        </div>
+        </div> */}
         <div className="flex flex-col flex-1 justify-center">
-          <h2 className="text-2xl">👈  That&apos;s me... Sam Donaghy-Bell.</h2>
+          <h2 className="text-2xl">👈  That&apos;s me... Sam Donaghy-Bell...   Hi! 👋 🙂</h2>
           <h2 className="text-2xl">I'm a developer based in Belfast N.Ireland.</h2>
           <br />
           <p className="text-2xl">This is my personal site where I'll share my skills, thoughts and ambitions.</p>

@@ -1,5 +1,5 @@
 
 
 .btn {
-  @apply my-6 bg-blue-300 text-darkGray px-5 py-3 rounded-2xl;
+  @apply my-6 bg-blue-300 text-darkGrey px-5 py-3 rounded-2xl;
 }

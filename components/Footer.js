@@ -1,6 +1,6 @@
 const Footer = () => {
   return ( 
-    <div className="py-6 flex flex-col justify-center items-center dark:bg-darkGray dark:text-lightGrey bg-lightGrey text-darkGrey transition">
+    <div className="py-6 flex flex-col justify-center items-center dark:bg-darkGrey dark:text-lightGrey bg-lightGrey text-darkGrey transition">
       <div>
         <small> SDB | {new Date().getFullYear()}</small>
       </div>

@@ -1,32 +1,13 @@
-import Link from 'next/link'
+import Link from "next/link";
+import Accordion from "../../components/Accordion";
+import Card from "../../components/Card";
 
 const Projects = () => {
   return (
-    <div>
-      <h1 className="text-3xl mb-12">All Projects</h1>
-      <ul>
-        <li>
-          <Link href="/projects/1">
-          <a>
-            <h1>Item 1</h1>
-          </a>
-          </Link>
-        </li>
-        <li>
-          <Link href="/projects/2">
-          <a>
-            <h1>Item 2</h1>
-          </a>
-          </Link>
-        </li>
-        <li>
-          <Link href="/projects/3">
-          <a>
-            <h1>Item 2</h1>
-          </a>
-          </Link>
-        </li>
-      </ul>
+    <div className="grid grid-cols-1 md:grid-cols-2">
+      <Card title="HTML" subtitle="&#x2605;&#x2605;&#x2605;&#x2605;&#x2605;" content="Test for HTML"/>
+      <Card title="CSS" subtitle="&#x2605;&#x2605;&#x2605;&#x2605;" content="Test for CSS"/>
+      <Card title="JS" subtitle="&#x2605;&#x2605;&#x2605;" content="Test for JS"/>
     </div>
   );
 };
