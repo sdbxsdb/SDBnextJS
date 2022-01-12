@@ -39,7 +39,7 @@ const Navbar = () => {
               <a>Blog</a>
             </Link>
 
-              <a href="mailto:samdonaghybell@gmail.com?subject=Howdy!" target="_blank">Get in touch</a>
+              <a href="mailto:samdonaghybell@gmail.com?subject=Howdy!" target="_blank" rel="noopener noreferrer">Get in touch</a>
           </div>
 
           <button className="darkLightMode transition absolute top-5 right-5">
