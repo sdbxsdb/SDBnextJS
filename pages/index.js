@@ -26,9 +26,9 @@ export default function Home() {
         </div> */}
         <div className="flex flex-col flex-1 justify-center">
           <h2 className="text-2xl">👈  That&apos;s me... Sam Donaghy-Bell...   Hi! 👋 🙂</h2>
-          <h2 className="text-2xl">I'm a developer based in Belfast N.Ireland.</h2>
+          <h2 className="text-2xl">I&apos;m a developer based in Belfast N.Ireland.</h2>
           <br />
-          <p className="text-2xl">This is my personal site where I'll share my skills, thoughts and ambitions.</p>
+          <p className="text-2xl">This is my personal site where I&apos;ll share my skills, thoughts and ambitions.</p>
         </div>
       </div>
       
