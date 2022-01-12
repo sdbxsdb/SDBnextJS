@@ -12,11 +12,11 @@ export default function Home() {
       <meta name="keywords" content="Test" />
       <meta name="description" content="Hello this is a test description for the home page" />
     </Head>
-    <div className="bg-black flex justify-between items-center w-full h-full">
+    <div className=" flex justify-between items-center w-full h-full">
 
 
       <div className="">
-        <img src="/sdbavatarloopedcropped.gif" className="" width="240" />
+        <img src="/sdbAvatarNoBg.gif" className="" width="350" />
       </div>
 
 

@@ -63,7 +63,7 @@ module.exports = {
 
 
       colors: {
-        darkGrey: '#000', // dark grey
+        darkGrey: '#191919', // dark grey
         lightGrey:'#F2F2F2', // light grey
         
       },
