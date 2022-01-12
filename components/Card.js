@@ -28,7 +28,7 @@ const Card = (props) => {
   
       <div className="p-4 border-t mx-8 mt-2">
         
-        <Accordion className="w-1/2 block mx-auto rounded-full text-lightGrey hover:shadow-lg font-semibold px-6 py-2" title="Click Me!" content={props.content} />
+        <Accordion className=" rounded-full text-lightGrey hover:shadow-lg font-semibold px-6 py-2 flex justify-center items-center" title="More Info" content={props.content} />
 
       </div>
     </div>

@@ -10,7 +10,7 @@ const Navbar = () => {
   const [colorTheme, setTheme] = useDarkMode();
   
   return (
-    <nav className="pt-8 border-b-2 border-blue-400 flex fixed top-0 w-full dark:bg-darkGrey dark:text-lightGrey bg-lightGrey text-darkGrey transition">
+    <nav className="pt-8 border-b-2 border-blue-400 flex fixed z-50 top-0 w-full dark:bg-darkGrey dark:text-lightGrey bg-lightGrey text-darkGrey transition">
 
       <div className="w-full flex  justify-between mx-12">
 

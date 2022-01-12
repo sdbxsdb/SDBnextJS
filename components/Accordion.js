@@ -13,8 +13,9 @@ export default function Accordion(props) {
         width: "100%",
         marginBottom: "15px",
       }}
+
     >
-      <button className="w-1/2 block mx-auto rounded-full bg-blue-400 hover:shadow-lg font-semibold text-lightGrey px-6 py-2 transition"
+      <button className="w-1/2 block mx-auto rounded-full bg-darkGrey hover:shadow-lg font-semibold text-lightGrey px-6 py-2 transition"
         onClick={toggle}
         type="button"
       >
@@ -26,6 +27,8 @@ export default function Accordion(props) {
           __html: props.content
         }}
       />
+
+      
     </div>
   );
 }
