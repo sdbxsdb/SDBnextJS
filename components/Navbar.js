@@ -26,15 +26,20 @@ const Navbar = () => {
 
         <div className=" my-6 flex justify-center ">
           <div className="flex gap-x-12">
+            
             <Link href="/about">
               <a>Bio</a>
             </Link>
+
             <Link href="/projects">
               <a>Skills</a>
             </Link>
+
             <Link href="/blogs">
               <a>Blog</a>
             </Link>
+
+              <a href="mailto:samdonaghybell@gmail.com?subject=Howdy!" target="_blank">Get in touch</a>
           </div>
 
           <button className="darkLightMode transition absolute top-5 right-5">
