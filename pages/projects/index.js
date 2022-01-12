@@ -24,7 +24,7 @@ const Projects = () => {
             subtitle="&#x2605;&#x2605;&#x2605;" 
             image="/skills/jsLogo.png"
             content="
-            <p >
+            <p>
             I love the literally endless capabilities of this language. <br><br>
             I&apos;m well versed in vanilla JS as well as jQuery and it&apos;s many plugins. Whether via CND or NPM. <br><br>
             Some recent projects have required: <br><br>
@@ -33,7 +33,7 @@ const Projects = () => {
             <li>- Checking logged in user data against collections for allowing different products to be purchased</li><br>
             <li>- Showing warning message depending on products status</li><br>
             <li>- Integrating What3Words into GoogleMaps API to allow clients to swap their coordinates for 3 words instead</li><br>
-            <li>- Looping through YouTube videos, getting ID's and applying the embedded thumbnail of each to an img tag for each video</li><br>
+            <li>- Looping through YouTube videos, getting ID&apos;s and applying the embedded thumbnail of each to an img tag for each video</li><br>
             <li>- Saving data to local storage (like your dark or light mode preferences here!)</li>
   
           </div>
