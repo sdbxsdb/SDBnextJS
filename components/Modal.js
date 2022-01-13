@@ -21,7 +21,7 @@ export default function Modal({show, onClose, children}) {
       <div className={styles.modal}>
         <div className={styles.header}>
             <button onClick={handleClose} className="h-[40px] w-[40px] flex justify-center items-center absolute -top-5 -right-5">
-            <svg fill="#000" width="30px" height="30px" x="0px" y="0px" viewBox="0 0 252 252" >
+            <svg className="fill-current text-black hover:text-blue-400 transition"  width="30px" height="30px" x="0px" y="0px" viewBox="0 0 252 252" >
               <g>
                 <path d="M126,0C56.523,0,0,56.523,0,126s56.523,126,126,126s126-56.523,126-126S195.477,0,126,0z M126,234
                   c-59.551,0-108-48.449-108-108S66.449,18,126,18s108,48.449,108,108S185.551,234,126,234z"/>
