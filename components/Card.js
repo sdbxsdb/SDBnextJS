@@ -1,12 +1,13 @@
 import Accordion from "../components/Accordion";
 import Modal from "../components/Modal";
 import { useState } from "react";
-
+import { If, Then, ElseIf, Else } from 'react-if-elseif-else-render';
 
 
 const Card = (props) => {
 
 const [showModal, setShowModal] = useState(false);
+
 
 
   return ( 
@@ -19,8 +20,18 @@ const [showModal, setShowModal] = useState(false);
         />
       </div>
 
-      <div className="mx-auto w-32 h-32 relative -mt-16  border-white rounded-full overflow-hidden flex items-center justify-center p-2">
-        <img className="object-contain w-full h-full" src={props.image}/>
+      <div className="flex justify-around">
+        
+        <div className="border w-32 h-32 relative -mt-16  border-white rounded-full overflow-hidden flex items-center justify-center p-2">
+          <img className="object-contain w-full h-full" src={props.image}/>
+        </div>
+
+        <If condition={props.image2}>
+          <div className="border w-32 h-32 relative -mt-16  border-white rounded-full overflow-hidden flex items-center justify-center p-2">
+            <img className="object-contain w-full h-full" src={props.image}/>
+          </div>
+        </If>
+        
       </div>
 
       <div className="text-center mt-2 text-darkGrey flex flex-col items-center">
@@ -42,7 +53,7 @@ const [showModal, setShowModal] = useState(false);
         <div className="w-full flex justify-center font-semibold mb-4 text-3xl">
           <h1>{props.title}</h1>
         </div>
-          <div dangerouslySetInnerHTML={{
+          <div className="pb-[40px]" dangerouslySetInnerHTML={{
           __html: props.content
         }}></div>
       </Modal>
@@ -52,7 +63,10 @@ const [showModal, setShowModal] = useState(false);
 
       </div>
     </div>
+
+    
   );
+  
 }
 
 export default Card;

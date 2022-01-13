@@ -18,9 +18,19 @@ const Projects = () => {
             <div">
               <img width="100%" height="200px" src="https://media.giphy.com/media/oobNzX5ICcRZC/giphy.gif" </div>'
             />
-      <Card title="CSS" 
+      <Card title="CSS | SCSS" 
             subtitle="&#x2605;&#x2605;&#x2605;&#x2605;" 
             image="/skills/cssLogo.png"
+            content="
+            <div>
+              <p>I&apos;m well versed in vanilla CSS, SASS and SCSS. I always try to reduce, reuse and recycle classes and variables where possible.
+              <br><br>I&apos;m very familiar with flexbox, :nth and CSS grids. <br><br> I also really enjoy building custom CSS animations and hover effects.</p> 
+            </div>"
+            />
+      <Card title="Tailwind | Bootstrap" 
+            subtitle="&#x2605;&#x2605;&#x2605;&#x2605;" 
+            image="/skills/tailwindLogo.png"
+            image2="/skills/bootstrapLogo.png"
             content="
             <div>
               <p>I&apos;m well versed in vanilla CSS, SASS and SCSS. I always try to reduce, reuse and recycle classes and variables where possible.
