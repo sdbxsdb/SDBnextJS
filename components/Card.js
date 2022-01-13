@@ -1,7 +1,6 @@
 import Accordion from "../components/Accordion";
 import Modal from "../components/Modal";
 import { useState } from "react";
-import { If, Then, ElseIf, Else } from 'react-if-elseif-else-render';
 
 
 const Card = (props) => {
@@ -22,15 +21,27 @@ const [showModal, setShowModal] = useState(false);
 
       <div className="flex justify-around">
         
-        <div className="border w-32 h-32 relative -mt-16  border-white rounded-full overflow-hidden flex items-center justify-center p-2">
+        <div className="w-32 h-32 relative -mt-16 dark:bg-darkGrey transition bg-lightGrey rounded-full overflow-hidden flex items-center justify-center p-4">
           <img className="object-contain w-full h-full" src={props.image}/>
         </div>
 
-        <If condition={props.image2}>
-          <div className="border w-32 h-32 relative -mt-16  border-white rounded-full overflow-hidden flex items-center justify-center p-2">
-            <img className="object-contain w-full h-full" src={props.image}/>
-          </div>
-        </If>
+        {/* This is fucking horrible but works for now... If statement to show the second logo if there is one */}
+        {(() => {
+          if (props.image2) {
+            return (
+              <div className="w-32 h-32 relative -mt-16 dark:bg-darkGrey transition bg-lightGrey rounded-full overflow-hidden flex items-center justify-center p-4">
+                <img className="object-contain w-full h-full " src={props.image2}/>
+              </div>
+            )
+          } else {
+            return (
+              <></>
+            )
+          }
+        })()}
+
+          
+
         
       </div>
 
