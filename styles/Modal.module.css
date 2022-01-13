@@ -1,10 +1,11 @@
 .modal {
   background: #fff;
-  with: 500px;
-  height: 600px;
-  border-radius: 15px;
+  width: 500px;
+  height: 500px;
+  overflow: scroll;
   padding: 20px;
   z-index: 100;
+  @apply rounded-lg fixed;
 }
 
 .header {
@@ -13,16 +14,17 @@
   font-size: 25px;
 }
 
+
 .body {
   padding-top: 10px;
 }
 
 .overlay {
-  position: absolute;
+  @apply fixed;
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;

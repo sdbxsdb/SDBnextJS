@@ -1,6 +1,6 @@
 import Accordion from "../components/Accordion";
 import Modal from "../components/Modal";
-import { useState } from "react"
+import { useState } from "react";
 
 
 
@@ -38,13 +38,15 @@ const [showModal, setShowModal] = useState(false);
         </button>
       </div>
 
-      <Modal show={showModal} onClose={() => setShowModal(false)} >
+      <Modal show={showModal} onClose={() => setShowModal(false)} title={props.title}>
+        <div className="w-full flex justify-center font-semibold mb-4 text-3xl">
+          <h1>{props.title}</h1>
+        </div>
           <div dangerouslySetInnerHTML={{
           __html: props.content
         }}></div>
       </Modal>
         
-
         
         {/* <Accordion className=" rounded-full text-lightGrey hover:shadow-lg font-semibold px-6 py-2 flex justify-center items-center" title="More Info" content={props.content} /> */}
 

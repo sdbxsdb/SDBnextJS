@@ -2,6 +2,8 @@ import { useState, useEffect} from "react";
 import  ReactDOM  from "react-dom";
 import styles from "../styles/Modal.module.css";
 
+
+
 export default function Modal({show, onClose, children}) {
   const [isBrowser, setIsBrowser] = useState(false);
 
@@ -18,6 +20,7 @@ export default function Modal({show, onClose, children}) {
     <div className={styles.overlay}>
       <div className={styles.modal}>
         <div className={styles.header}>
+          {/* <h1>{props.title}</h1> */}
           <a href="#" onClick={handleClose}>
             <button>Close</button>
           </a>
