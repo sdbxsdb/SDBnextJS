@@ -16,7 +16,7 @@ export default function Home() {
 
 
       <div className="">
-        <img src="/sdbAvatarNoBg.gif" className="" width="350" />
+        <img src="/sdbavatarcroppedgif.gif" className="" width="250" />
       </div>
 
 
