@@ -1,8 +1,12 @@
 import Accordion from "../components/Accordion";
+import Modal from "../components/Modal";
+import { useState } from "react"
+
 
 
 const Card = (props) => {
 
+const [showModal, setShowModal] = useState(false);
 
 
   return ( 
@@ -27,8 +31,22 @@ const Card = (props) => {
       </div>
   
       <div className="p-4 border-t mx-8 mt-2">
+
+      <div className="flex justify-center">
+        <button onClick={() => setShowModal(true)}>
+          More Info
+        </button>
+      </div>
+
+      <Modal show={showModal} onClose={() => setShowModal(false)} >
+          <div dangerouslySetInnerHTML={{
+          __html: props.content
+        }}></div>
+      </Modal>
         
-        <Accordion className=" rounded-full text-lightGrey hover:shadow-lg font-semibold px-6 py-2 flex justify-center items-center" title="More Info" content={props.content} />
+
+        
+        {/* <Accordion className=" rounded-full text-lightGrey hover:shadow-lg font-semibold px-6 py-2 flex justify-center items-center" title="More Info" content={props.content} /> */}
 
       </div>
     </div>
