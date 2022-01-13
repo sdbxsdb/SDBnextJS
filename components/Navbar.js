@@ -24,8 +24,10 @@ const Navbar = () => {
           </a>
         </Link>
 
+        
         <div className=" my-6 flex justify-center ">
-          <div className="flex gap-x-12">
+          {/* Desktop Nav */}
+          <div className="gap-x-12 hidden md:flex">
             
             <Link href="/about">
               <a>Bio</a>
@@ -45,6 +47,7 @@ const Navbar = () => {
 
               <a href="mailto:samdonaghybell@gmail.com?subject=Howdy!" target="_blank" rel="noopener noreferrer">Get in touch</a>
           </div>
+          {/*END OF // Desktop Nav */}
 
           <button className="darkLightMode transition absolute top-5 right-5">
             {colorTheme === "light" ? (
