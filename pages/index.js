@@ -12,7 +12,7 @@ export default function Home() {
       <meta name="keywords" content="Test" />
       <meta name="description" content="Hello this is a test description for the home page" />
     </Head>
-    <div className=" flex justify-between items-center w-full h-full">
+    <div className="flex flex-col md:flex-row justify-between items-center w-full h-full">
 
 
       <div className="">
@@ -20,11 +20,19 @@ export default function Home() {
       </div>
 
 
-      <div className="flex flex-1 ml-4 flex-col justify-center">
+      <div className="flex flex-1 ml-4 flex-col justify-center my-8 md:my-0">
         <div className="flex flex-col flex-1 justify-center">
-          <h2 className="text-2xl">👈  That&apos;s me... Sam Donaghy-Bell...   Hi! 👋 🙂</h2>
-          <h2 className="text-2xl">      I&apos;m a developer based in Belfast N.Ireland.</h2>
-          <br />
+          <h2 className="text-2xl flex flex-col">
+            <span className="hidden md:flex">👈  </span>
+            <span className="flex md:hidden">👆  </span>
+            <span>That&apos;s me...</span> 
+            <span>Sam Donaghy-Bell...   Hi! 👋 🙂</span>
+          </h2>
+          <h2 className="text-2xl my-8 md:my-0">
+            <span className="hidden md:flex">      </span>
+            I&apos;m a developer based in Belfast N.Ireland.
+            </h2>
+          <br className="hidden md:flex" />
           <p className="text-2xl">This is my personal site where I&apos;ll share my skills, thoughts and ambitions.</p>
         </div>
       </div>
