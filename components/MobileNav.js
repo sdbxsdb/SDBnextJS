@@ -45,7 +45,7 @@ export default function MobileNav({show, onClose}) {
             </Link>
           </li>
           <li onClick={handleClose}>
-            <Link href="/blog">
+            <Link href="/blogs">
               <a className="hover:text-blue-400 transition">Blog</a>
             </Link>
           </li>
