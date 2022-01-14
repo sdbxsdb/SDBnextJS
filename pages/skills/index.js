@@ -6,7 +6,7 @@ const Skills = () => {
   return (
     <>
     <div className="w-full text-center">
-      <h1 className="text-3xl">Abilities</h1>
+      <h1 className="text-4xl mb-4 font-semibold">Abilities</h1>
     </div>
       <div className="flex flex-wrap justify-center">
         <Card

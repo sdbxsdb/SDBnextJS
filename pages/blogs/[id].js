@@ -44,11 +44,10 @@ const Details = ({ blog }) => {
   
   return (
     <div>
-      <h1>Details Page</h1>
 
-      <h3>{blog.title}</h3>
+      <h1 className="text-4xl font-semibold mb-12">{blog.title}</h1>
 
-        <div dangerouslySetInnerHTML={{__html: text}}/>
+      <div dangerouslySetInnerHTML={{__html: text}}/>
 
     </div>
   );

@@ -17,17 +17,25 @@ export const getStaticProps = async () => {
 
 const Blogs = ({ blogs }) => {
   return ( 
-    <div>
-      <h1 className="text-3xl mb-12">All Blogs</h1>
-      {blogs.map( blog => (
-        <div key={blog.id}>
-          <Link href={'/blogs/' + blog.id}>
-            <a>
-              <h3>{blog.title}</h3>
-            </a>
-          </Link>
+    <div cl>
+      <div className="w-full text-center">
+        <h1 className="text-4xl font-semibold mb-12">Blog</h1>
+      </div>
+      <div className="flex justify-center">
+        <div className="w-1/2 flex flex-col items-start gap-y-12">
+          {blogs.map( blog => (
+            <div key={blog.id} className="border-b-2 dark:border-lightGrey border-darkGrey flex justify-start w-full transition group">
+              <Link href={'/blogs/' + blog.id}>
+                <a className="flex items-center w-full justify-start group">
+                  <p className="group-hover:text-blue-400 transition transform group-hover:translate-x-4">{blog.title}</p>
+                </a>
+              </Link>
+              
+            </div>
+            
+          ))}
         </div>
-      ))}
+      </div>
     </div>
   );
 }
