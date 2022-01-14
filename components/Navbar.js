@@ -1,13 +1,25 @@
 import Link from "next/link";
 import Image from "next/image";
 import useDarkMode from "../useDarkMode";
-import Head from "next/head";
+import { useState, useEffect} from "react";
+import MobileNav from "../components/MobileNav";
 
 
-// FLIP DARK MODE ROUND!!!!!!
+
+
 
 const Navbar = () => {
   const [colorTheme, setTheme] = useDarkMode();
+  const [showMobile, setShowMobile] = useState(false);
+
+  const toggleMobileNav = () => {
+    if (showMobile) {
+      setShowMobile(false);
+    } else {
+      setShowMobile(true);
+    }
+  }
+
   
   return (
     <nav className="pt-8 border-b-2 border-blue-400 flex fixed z-50 top-0 w-full dark:bg-darkGrey dark:text-lightGrey bg-lightGrey text-darkGrey transition">
@@ -48,6 +60,17 @@ const Navbar = () => {
               <a href="mailto:samdonaghybell@gmail.com?subject=Howdy!" target="_blank" rel="noopener noreferrer">Get in touch</a>
           </div>
           {/*END OF // Desktop Nav */}
+
+          {/* MOBILE Nav */}
+          <div className="flex md:hidden">
+            <button onClick={toggleMobileNav} className="flex flex-col gap-y-1.5">
+              <div className="w-[40px] h-[3px] bg-darkGrey dark:bg-lightGrey"></div>
+              <div className="w-[40px] h-[3px] bg-darkGrey dark:bg-lightGrey"></div>
+              <div className="w-[40px] h-[3px] bg-darkGrey dark:bg-lightGrey"></div>
+            </button>
+            <MobileNav show={showMobile} onClose={() => setShowMobile(false)}/>
+          </div>
+          {/* END OF //  MOBILE Nav */}
 
           <button className="darkLightMode transition absolute top-5 right-5">
             {colorTheme === "light" ? (

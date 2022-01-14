@@ -15,6 +15,7 @@ class MyDocument extends Document {
         <body>
           <Main />
           <NextScript />
+          <div id="mobilenav-root"></div>
           <div id="modal-root"></div>
         </body>
       </Html>

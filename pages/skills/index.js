@@ -8,7 +8,7 @@ const Skills = () => {
     <div className="w-full text-center">
       <h1 className="text-3xl">Abilities</h1>
     </div>
-      <div className="flex flex-wrap">
+      <div className="flex flex-wrap justify-center">
         <Card
           title="HTML"
           subtitle="&#x2605;&#x2605;&#x2605;&#x2605;&#x2605;"
