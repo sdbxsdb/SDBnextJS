@@ -15,7 +15,7 @@ const Projects = () => {
             <div className="border-b-2 dark:border-lightGrey border-darkGrey flex justify-start w-full transition group">
               <Link href={'/projects/cinecopters'}>
                 <a className="flex items-center w-full justify-start group">
-                  <p className="group-hover:text-blue-400 transition transform group-hover:translate-x-4">CineCopters</p>
+                  <p className="group-hover:text-blue-400 transition transform group-hover:translate-x-4">CineCopters - (Broucher & Order Reqests)</p>
                 </a>
               </Link>
             </div>
@@ -23,7 +23,7 @@ const Projects = () => {
             <div className="border-b-2 dark:border-lightGrey border-darkGrey flex justify-start w-full transition group">
               <Link href={'/projects/kidsGame'}>
                 <a className="flex items-center w-full justify-start group">
-                  <p className="group-hover:text-blue-400 transition transform group-hover:translate-x-4">Childrens Game</p>
+                  <p className="group-hover:text-blue-400 transition transform group-hover:translate-x-4">McDonalds Farm - (Interactive Childrens Game)</p>
                 </a>
               </Link>
             </div>
@@ -31,7 +31,15 @@ const Projects = () => {
             <div className="border-b-2 dark:border-lightGrey border-darkGrey flex justify-start w-full transition group">
               <Link href={'/projects/jnrClothing'}>
                 <a className="flex items-center w-full justify-start group">
-                  <p className="group-hover:text-blue-400 transition transform group-hover:translate-x-4">JnR Clothing</p>
+                  <p className="group-hover:text-blue-400 transition transform group-hover:translate-x-4">JnR Clothing - (Retail)</p>
+                </a>
+              </Link>
+            </div>
+
+            <div className="border-b-2 dark:border-lightGrey border-darkGrey flex justify-start w-full transition group">
+              <Link href={'/projects/ruralVoices'}>
+                <a className="flex items-center w-full justify-start group">
+                  <p className="group-hover:text-blue-400 transition transform group-hover:translate-x-4">Rural Voices - (Public Service Information)</p>
                 </a>
               </Link>
             </div>
