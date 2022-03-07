@@ -41,6 +41,10 @@ const cinecopters = () => {
         <a className="underline hover:text-blue-400 transition" href="https://cinecopters.co.uk" target="_blank">Live Site</a>
       </div>
 
+      <div className="flex justify-center">
+        <p className='text-smallerTitle'>CineCopters | Drones for Film & TV</p>
+      </div>
+
       <div className="">
         <iframe className="w-screen h-[calc(100vh-280px)]" src="https://cinecopters.co.uk"></iframe>
       </div>

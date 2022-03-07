@@ -38,6 +38,10 @@ const kidsGame = () => {
         <a className="underline hover:text-blue-400 transition" href="https://jnrclothing.com/" target="_blank">Live Site</a>
       </div>
 
+      <div className="flex justify-center">
+        <p className='text-smallerTitle'>JnR Clothing</p>
+      </div>
+
       <div className="">
         <iframe className="w-screen h-[calc(100vh-280px)]" src="https://jnrclothing.com/"></iframe>
       </div>

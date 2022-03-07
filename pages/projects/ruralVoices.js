@@ -31,6 +31,7 @@ const kidsGame = () => {
               '
         />
 
+        
         <a
           className="underline hover:text-blue-400 transition"
           href="https://ruralvoices.reflex-dev.com/"
@@ -38,6 +39,10 @@ const kidsGame = () => {
         >
           Live Site
         </a>
+      </div>
+
+      <div className="flex justify-center">
+        <p className='text-smallerTitle'>Rural Voices</p>
       </div>
 
       <div className="">
