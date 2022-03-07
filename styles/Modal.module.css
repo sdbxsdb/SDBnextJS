@@ -1,24 +1,8 @@
-.modal {
-  background: #fff;
-  max-width: 500px;
-  max-height: 500px;
-  overflow: scroll;
-  padding: 40px;
-  z-index: 100;
-  @apply rounded-lg fixed flex justify-end;
-}
-
-.header {
-  @apply fixed rounded-full;
-  justify-content: flex-end;
-  font-size: 25px;
-  background: #fff;
-}
-
 
 .body {
   height:100%;
   width:100%;
+  @apply p-[40px];
 }
 
 .overlay {

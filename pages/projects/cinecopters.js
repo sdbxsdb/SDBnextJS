@@ -6,11 +6,11 @@ const cinecopters = () => {
   return ( 
     <div className="absolute top-[112px] w-full left-0">
 
-      <div className="flex w-full justify-center items-center border gap-x-12 h-[80px]">
+      <div className="flex w-full justify-center items-center gap-x-12 h-[80px]">
 
       <MoreInfoCard
           content='
-          <div class="w-full h-full overflow-hidden pt-[40px]">
+          <div>
             <div class="moreInfoContent">
             <p>At the time this was my most in-depth website to date at the time in terms of size and functionality.  Built using HTML 5, PHP, SCSS, Bootstrap 4, JavaScript . 
             <br/><br/>
@@ -31,6 +31,7 @@ const cinecopters = () => {
             <li>and more</li>
             </ul><br>
 
+            
             </p></div>
             </div>
             '
@@ -40,7 +41,7 @@ const cinecopters = () => {
         <a className="underline hover:text-blue-400 transition" href="https://cinecopters.co.uk" target="_blank">Live Site</a>
       </div>
 
-      <div className="hidden">
+      <div className="">
         <iframe className="w-screen h-[calc(100vh-280px)]" src="https://cinecopters.co.uk"></iframe>
       </div>
 

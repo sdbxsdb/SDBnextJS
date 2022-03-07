@@ -20,9 +20,6 @@ const [showModal, setShowModal] = useState(false);
       </div>
 
       <Modal show={showModal} onClose={() => setShowModal(false)} title={props.title}>
-        <div className="w-full flex justify-center font-semibold mb-4 text-3xl">
-          <h1>{props.title}</h1>
-        </div>
           <div className="pb-[40px]" dangerouslySetInnerHTML={{
           __html: props.content
         }}></div>

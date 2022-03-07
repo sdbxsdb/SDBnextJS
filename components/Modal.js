@@ -18,9 +18,9 @@ export default function Modal({show, onClose, children}) {
 
   const modalContent = show ? (
     <div className={styles.overlay} onClick={handleClose} >
-      <div className={styles.modal}>
-        <div className={styles.header}>
-            <button onClick={handleClose} className="h-[40px] w-[40px] flex justify-center items-center absolute -top-5 -right-5">
+      <div className='rounded-lg flex items-end flex-col z-50 overflow-scroll max-h-[500px] w-[500px] bg-white relative'>
+ 
+            <button onClick={handleClose} className="h-[40px]  flex justify-end items-center fixed w-auto px-2 py-6 bg-white rounded-full">
             <svg className="fill-current text-black hover:text-blue-400 transition"  width="30px" height="30px" x="0px" y="0px" viewBox="0 0 252 252" >
               <g>
                 <path d="M126,0C56.523,0,0,56.523,0,126s56.523,126,126,126s126-56.523,126-126S195.477,0,126,0z M126,234
@@ -33,7 +33,7 @@ export default function Modal({show, onClose, children}) {
               </g>
               </svg>
             </button>
-        </div>
+
         <div className={styles.body}>{ children }</div>
       </div>
     </div>
