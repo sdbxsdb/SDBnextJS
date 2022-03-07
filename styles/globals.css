@@ -11,5 +11,10 @@
   @apply transition-all ease-in-out duration-300;
 }
 
+.moreInfoContent li{
+  @apply ml-[20px];
+  list-style: circle;
+}
+
 
 

@@ -17,7 +17,7 @@ export const getStaticProps = async () => {
 
 const Blogs = ({ blogs }) => {
   return ( 
-    <div cl>
+    <div>
       <div className="w-full text-center">
         <h1 className="text-4xl font-semibold mb-12">Blog</h1>
       </div>
