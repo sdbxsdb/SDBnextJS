@@ -11,22 +11,30 @@ const kidsGame = () => {
           content='
           <div>
             <div class="moreInfoContent">
-              <p> 
-              I built this website for a clothing store while employed at Reflex Studios.  
-              
-              <br/><br/>
-              I translated the designs and built everything out in HTML and CSS then converted this into templates to be used with the CMS Statamic.
+            <p>I built this site while employed at Reflex Studios.  I translated the designers work and built: 
+            <br/><br/>
 
-              <br/><br/>
+            <ul class="listElements">
+            <li>Live filtering when typing built with Alpine JS</li>
+            <li>Full CMS control</li>
+            <li>Snipcart API stock keeping, checkout and payment intergration</li>
+            <li>Live price changing depening on size chosen and amount</li>
+            <li>Navbar basket quantity update</li>
+            <li>AJAX contact submission form</li>
+            <li>Basket editing with live reload</li>
+            <li>Fully responsive</li>
+            <li>Hover and active states</li>
+            <li>Carousel</li>
+            
+            </ul><br>
 
-              I used Alpine JS to intergrate a live filtering for schools that filters as you type.  I also built a simple &apos;boys, girls or both&apos; filter
-              </p>
-              </div>
+            
+            </p></div>
             </div>
             '
         />
 
-        <a className="underline hover:text-blue-400 transition" href="https://github.com/sdbxsdb/Kids-Game" target="_blank">GitHub</a>
+        
         <a className="underline hover:text-blue-400 transition" href="https://jnrclothing.com/" target="_blank">Live Site</a>
       </div>
 
