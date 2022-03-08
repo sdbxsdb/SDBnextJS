@@ -2,7 +2,7 @@ import MoreInfoCard from "../../components/MoreInfoCard";
 
 
 
-const cinecopters = () => {
+const fauxInstagram = () => {
   return ( 
     <div className="absolute top-[112px] w-full left-0">
 
@@ -59,4 +59,4 @@ const cinecopters = () => {
   );
 }
  
-export default cinecopters;
+export default fauxInstagram;

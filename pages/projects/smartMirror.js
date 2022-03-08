@@ -2,7 +2,7 @@ import MoreInfoCard from "../../components/MoreInfoCard";
 
 
 
-const cinecopters = () => {
+const smartMirror = () => {
   return ( 
     <div className="absolute top-[112px] w-full left-0">
 
@@ -56,4 +56,4 @@ const cinecopters = () => {
   );
 }
  
-export default cinecopters;
+export default smartMirror;

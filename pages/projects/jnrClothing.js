@@ -1,7 +1,7 @@
 import MoreInfoCard from "../../components/MoreInfoCard";
 
 
-const kidsGame = () => {
+const jnrclothing = () => {
   return ( 
     <div className="absolute top-[112px] w-full left-0">
 
@@ -50,4 +50,4 @@ const kidsGame = () => {
    );
 }
  
-export default kidsGame;
+export default jnrclothing;

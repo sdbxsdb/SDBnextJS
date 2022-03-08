@@ -1,6 +1,6 @@
 import MoreInfoCard from "../../components/MoreInfoCard";
 
-const kidsGame = () => {
+const ruralvoices = () => {
   return (
     <div className="absolute top-[112px] w-full left-0">
       <div className="flex w-full justify-center items-center gap-x-12 h-[80px]">
@@ -55,4 +55,4 @@ const kidsGame = () => {
   );
 };
 
-export default kidsGame;
+export default ruralvoices;
