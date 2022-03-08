@@ -37,6 +37,14 @@ const Projects = () => {
             </div>
 
             <div className="border-b-2 dark:border-lightGrey border-darkGrey flex justify-start w-full transition group">
+              <Link href={'/projects/fauxInstagram'}>
+                <a className="flex items-center w-full justify-start group">
+                  <p className="group-hover:text-blue-400 transition transform group-hover:translate-x-4">Faux Instagram - (Laravel Project)</p>
+                </a>
+              </Link>
+            </div>
+
+            <div className="border-b-2 dark:border-lightGrey border-darkGrey flex justify-start w-full transition group">
               <Link href={'/projects/jnrClothing'}>
                 <a className="flex items-center w-full justify-start group">
                   <p className="group-hover:text-blue-400 transition transform group-hover:translate-x-4">JnR Clothing - (Retail)</p>
