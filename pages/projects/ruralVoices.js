@@ -46,7 +46,7 @@ const ruralvoices = () => {
         <small>Please allow time for the external site below to load - it may take a few seconds.</small>
       </div>
 
-      <div className="">
+      <div className="iframeWrapper">
         <iframe
           className="w-screen h-[calc(100vh-280px)]"
           src="https://ruralvoices.reflex-dev.com/"

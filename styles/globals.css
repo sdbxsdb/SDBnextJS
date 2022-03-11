@@ -4,17 +4,20 @@
 
 * {
   font-family: new-order, sans-serif;
-  
 }
 
 .transition {
   @apply transition-all ease-in-out duration-300;
 }
 
-.moreInfoContent li{
+.moreInfoContent li {
   @apply ml-[20px];
   list-style: circle;
 }
 
-
-
+.iframeWrapper {
+  background: #191919 url("/loading.gif");
+  background-size: 50px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
