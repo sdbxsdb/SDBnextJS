@@ -46,7 +46,7 @@ const cinecopters = () => {
         <small>Please allow time for the external site below to load - it may take a few seconds.</small>
       </div>
 
-      <div className="iframeWrapper">
+      <div className="iframeWrapper dark:bg-darkGrey bg-lightGrey">
         <iframe className="w-screen h-[calc(100vh-280px)]" src="https://cinecopters.co.uk"></iframe>
       </div>
 

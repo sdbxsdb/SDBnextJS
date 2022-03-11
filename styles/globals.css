@@ -16,7 +16,7 @@
 }
 
 .iframeWrapper {
-  background: #191919 url("/loading.gif");
+  background: url("/loading.gif");
   background-size: 50px;
   background-repeat: no-repeat;
   background-position: center;

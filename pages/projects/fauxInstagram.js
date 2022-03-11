@@ -52,7 +52,7 @@ const fauxInstagram = () => {
         <small>Please allow time for the external site below to load - it may take a few seconds.</small>
       </div>
 
-      <div className="iframeWrapper">
+      <div className="iframeWrapper dark:bg-darkGrey bg-lightGrey">
         <iframe className="w-screen h-[calc(100vh-280px)]" src="https://www.youtube.com/embed/wa-rlc44v5I"></iframe>
       </div>
 
