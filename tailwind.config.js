@@ -64,8 +64,9 @@ module.exports = {
 
       colors: {
         darkGrey: '#191919', // dark grey
+        darkGreyFaded: 'rgba(25, 25, 25, 0.7)', // dark grey
+        lightGreyFaded:'rgba(242, 242, 242, 0.7)', // light grey
         lightGrey:'#F2F2F2', // light grey
-        
       },
 
       spacing: {
