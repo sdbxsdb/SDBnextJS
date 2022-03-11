@@ -39,7 +39,7 @@ const kidsGame = () => {
       </div>
 
       <div className="flex justify-center">
-        <p className='text-smallerTitle'>Farmer McDonald's Kids Game</p>
+        <p className='text-smallerTitle'>Farmer McDonald&apos;s Kids Game</p>
       </div>
 
       <div className="">
