@@ -38,8 +38,9 @@ const kidsGame = () => {
         <a className="underline hover:text-blue-400 transition" href="https://www.sdbkidsgame.xyz/" target="_blank" rel="noreferrer">Live Site</a>
       </div>
 
-      <div className="flex justify-center">
+      <div className="flex flex-col mb-4 items-center">
         <p className='text-smallerTitle'>Farmer McDonald&apos;s Kids Game</p>
+        <small>Please allow time for the external site below to load - it may take a few seconds.</small>
       </div>
 
       <div className="">

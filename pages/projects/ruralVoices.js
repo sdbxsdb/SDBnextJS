@@ -41,8 +41,9 @@ const ruralvoices = () => {
         </a>
       </div>
 
-      <div className="flex justify-center">
+      <div className="flex flex-col mb-4 items-center">
         <p className='text-smallerTitle'>Rural Voices</p>
+        <small>Please allow time for the external site below to load - it may take a few seconds.</small>
       </div>
 
       <div className="">

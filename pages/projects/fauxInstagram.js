@@ -47,8 +47,9 @@ const fauxInstagram = () => {
         
       </div>
 
-      <div className="flex justify-center">
+      <div className="flex items-center flex-col mb-4">
         <p className='text-smallerTitle'>Faux Instagram</p>
+        <small>Please allow time for the external site below to load - it may take a few seconds.</small>
       </div>
 
       <div className="">
