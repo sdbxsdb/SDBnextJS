@@ -40,7 +40,7 @@ const smartMirror = () => {
             '
         />
 
-        <a className="underline hover:text-blue-400 transition" href="https://github.com/sdbxsdb/Smart-Mirror" target="_blank">GitHub</a>
+        <a className="underline hover:text-blue-400 transition" href="https://github.com/sdbxsdb/Smart-Mirror" target="_blank" rel="noreferrer">GitHub</a>
 
       </div>
 

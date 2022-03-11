@@ -34,8 +34,8 @@ const kidsGame = () => {
             '
         />
 
-        <a className="underline hover:text-blue-400 transition" href="https://github.com/sdbxsdb/Kids-Game" target="_blank">GitHub</a>
-        <a className="underline hover:text-blue-400 transition" href="https://www.sdbkidsgame.xyz/" target="_blank">Live Site</a>
+        <a className="underline hover:text-blue-400 transition" href="https://github.com/sdbxsdb/Kids-Game" target="_blank" rel="noreferrer">GitHub</a>
+        <a className="underline hover:text-blue-400 transition" href="https://www.sdbkidsgame.xyz/" target="_blank" rel="noreferrer">Live Site</a>
       </div>
 
       <div className="flex justify-center">

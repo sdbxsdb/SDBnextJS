@@ -35,7 +35,7 @@ const ruralvoices = () => {
         <a
           className="underline hover:text-blue-400 transition"
           href="https://ruralvoices.reflex-dev.com/"
-          target="_blank"
+          target="_blank" rel="noreferrer"
         >
           Live Site
         </a>

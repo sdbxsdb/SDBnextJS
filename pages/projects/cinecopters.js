@@ -37,8 +37,8 @@ const cinecopters = () => {
             '
         />
 
-        <a className="underline hover:text-blue-400 transition" href="https://github.com/sdbxsdb/CineCopters" target="_blank">GitHub</a>
-        <a className="underline hover:text-blue-400 transition" href="https://cinecopters.co.uk" target="_blank">Live Site</a>
+        <a className="underline hover:text-blue-400 transition" href="https://github.com/sdbxsdb/CineCopters" target="_blank" rel="noreferrer">GitHub</a>
+        <a className="underline hover:text-blue-400 transition" href="https://cinecopters.co.uk" target="_blank" rel="noreferrer">Live Site</a>
       </div>
 
       <div className="flex justify-center">

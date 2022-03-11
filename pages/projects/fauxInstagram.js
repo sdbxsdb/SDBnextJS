@@ -43,7 +43,7 @@ const fauxInstagram = () => {
             '
         />
 
-        <a className="underline hover:text-blue-400 transition" href="https://github.com/sdbxsdb/famGram" target="_blank">GitHub</a>
+        <a className="underline hover:text-blue-400 transition" href="https://github.com/sdbxsdb/famGram" target="_blank" rel="noreferrer">GitHub</a>
         
       </div>
 

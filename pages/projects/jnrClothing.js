@@ -35,7 +35,7 @@ const jnrclothing = () => {
         />
 
         
-        <a className="underline hover:text-blue-400 transition" href="https://jnrclothing.com/" target="_blank">Live Site</a>
+        <a className="underline hover:text-blue-400 transition" href="https://jnrclothing.com/" target="_blank" rel="noreferrer">Live Site</a>
       </div>
 
       <div className="flex justify-center">
