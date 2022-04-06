@@ -60,13 +60,13 @@ const Projects = () => {
               </Link>
             </div>
 
-            <div className="flex justify-start w-full transition border-b-2 dark:border-lightGrey border-darkGrey group">
+            {/* <div className="flex justify-start w-full transition border-b-2 dark:border-lightGrey border-darkGrey group">
               <Link href={'/projects/ruralVoices'}>
                 <a className="flex items-center justify-start w-full group">
                   <p className="transition transform group-hover:text-blue-400 group-hover:translate-x-4">Rural Voices - (Public Service Information)</p>
                 </a>
               </Link>
-            </div>
+            </div> */}
             
 
         </div>
