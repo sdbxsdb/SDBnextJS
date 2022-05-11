@@ -45,6 +45,7 @@ const coffeeShops = () => {
       <div className="flex flex-col items-center mb-4">
         <p className='text-smallerTitle'>Location based coffee shop search &amp; voting</p>
         <small>Please allow time for the external site below to load - it may take a few seconds.</small>
+        <small><cite>** The live location may not work in some browsers due to iframe restrictions.   If this is the case please vist the live site for a working demo. **</cite></small>
       </div>
 
       <div className="iframeWrapper dark:bg-darkGrey bg-lightGrey">
