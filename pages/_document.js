@@ -10,6 +10,7 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head> 
+          <link rel="shortcut icon" href="/favicon.ico" /> t
           <link rel="stylesheet" href="https://use.typekit.net/rbr3ilt.css"/>
         </Head>
         <body>
