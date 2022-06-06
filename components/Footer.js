@@ -5,8 +5,8 @@ const Footer = () => {
         <small> SDB | {new Date().getFullYear()}</small>
       </div>
       <div>
-        <small><a href="mailto:samdonaghybell@gmail.com?subject=hi!" target="_blank" rel="noopener noreferrer">samdonaghybell@gmail.com</a>  |  <a href="tel:00447780586444">004477 805 86 444</a></small>
-        
+        <small>
+          <a className="transition hover:text-blue-400" href="mailto:samdonaghybell@gmail.com?subject=hi!" target="_blank" rel="noopener noreferrer">samdonaghybell@gmail.com</a>  |  <a className='transition hover:text-blue-400' href="tel:00447780586444">004477 805 86 444</a></small>
       </div>
     </div>
   );

@@ -1,9 +1,15 @@
 import MoreInfoCard from "../../components/MoreInfoCard";
-
+import Head from 'next/head';
 
 
 const coffeeShops = () => {
   return ( 
+    <>
+    <Head>
+      <title>Coffee Connoisseur | Sam Donaghy-Bell</title>
+      <meta name="keywords" content="Coffee Connoisseur" />
+      <meta name="description" content="A coffee shop voting site with location." />
+    </Head>
     <div className="absolute top-[112px] w-full left-0">
 
       <div className="flex w-full justify-center items-center gap-x-12 h-[80px]">
@@ -45,7 +51,7 @@ const coffeeShops = () => {
       <div className="flex flex-col items-center mb-4">
         <p className='text-smallerTitle'>Location based coffee shop search &amp; voting</p>
         <small>Please allow time for the external site below to load - it may take a few seconds.</small>
-        <small><cite>** The live location may not work in some browsers due to iframe restrictions.   If this is the case please vist the live site for a working demo. **</cite></small>
+        <p><cite>** The live location may not work in some browsers due to iframe restrictions.   If this is the case please vist the live site for a working demo. **</cite></p>
       </div>
 
       <div className="iframeWrapper dark:bg-darkGrey bg-lightGrey">
@@ -53,6 +59,7 @@ const coffeeShops = () => {
       </div>
 
     </div>
+    </>
   );
 }
  

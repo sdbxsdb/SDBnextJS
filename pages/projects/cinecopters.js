@@ -1,9 +1,16 @@
 import MoreInfoCard from "../../components/MoreInfoCard";
+import Head from 'next/head';
 
 
 
 const cinecopters = () => {
   return ( 
+    <>
+    <Head>
+      <title>CineCopters | Sam Donaghy-Bell</title>
+      <meta name="keywords" content="CineCopters" />
+      <meta name="description" content="The first ever brochure site I built with contact forms and stock footage ordering platform." />
+    </Head>
     <div className="absolute top-[112px] w-full left-0">
 
       <div className="flex w-full justify-center items-center gap-x-12 h-[80px]">
@@ -51,6 +58,7 @@ const cinecopters = () => {
       </div>
 
     </div>
+    </>
   );
 }
  

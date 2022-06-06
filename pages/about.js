@@ -5,7 +5,7 @@ const About = () => {
     //Below is a fragment just surrounding everything in one element
     <>  
     <Head>
-      <title>Home | Sam Donaghy-Bell</title>
+      <title>About | Sam Donaghy-Bell</title>
       <meta name="keywords" content="About" />
       <meta name="description" content="Hello this is a test description for the About page" />
     </Head>
@@ -13,7 +13,8 @@ const About = () => {
 
       <div>
         <h1 className="text-4xl mb-4 font-semibold">Who am I?</h1>
-        <p className="text-subtitle">I&apos;m a former film & TV drama camera engineer of 12 years turned self-taught developer.</p>
+        <p className="text-subtitle">This is my personal site where I&apos;ll share my skills, thoughts and ambitions.
+        I&apos;m former camera engineer for film and TV productions of 12 years but I&apos;ve now taken to go coding full time and currently work as a developer in Belfast.</p>
       </div>
 
       <div className="pb-12">

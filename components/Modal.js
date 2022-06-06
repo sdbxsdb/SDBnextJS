@@ -17,8 +17,8 @@ export default function Modal({show, onClose, children}) {
   }
 
   const modalContent = show ? (
-    <div className="fixed top-0 left-0 flex items-center justify-center w-full h-screen overflow-x-hidden overflow-y-auto dark:bg-darkGreyFaded dark:text-lightGrey bg-lightGreyFaded text-darkGrey">
-      <div className='rounded-lg flex items-end flex-col z-50 overflow-scroll max-h-[500px] w-[500px] dark:bg-darkGrey dark:text-lightGrey bg-lightGrey text-darkGrey relative'>
+    <div className="fixed top-0 left-0 flex items-center justify-center w-full h-screen overflow-x-hidden overflow-y-auto dark:bg-darkGreyFaded dark:text-lightGrey bg-lightGreyFaded text-darkGrey" onClick={handleClose}>
+      <div className='rounded-lg flex items-end flex-col z-50 overflow-scroll max-h-[500px] w-[500px] dark:bg-darkGrey dark:text-lightGrey bg-lightGrey text-darkGrey relative shadow-md shadow-blue-400/40'>
  
             <button onClick={handleClose} className="h-[40px]  flex justify-end items-center fixed w-auto px-2 py-6 dark:bg-darkGrey dark:text-lightGrey bg-lightGrey text-darkGrey rounded-full">
             <svg className="transition fill-current dark:text-lightGrey text-darkGrey hover:text-blue-400"  width="30px" height="30px" x="0px" y="0px" viewBox="0 0 252 252" >

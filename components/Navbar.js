@@ -1,12 +1,8 @@
 import Link from "next/link";
 import Image from "next/image";
 import useDarkMode from "../useDarkMode";
-import { useState, useEffect} from "react";
+import { useState, useEffect } from "react";
 import MobileNav from "../components/MobileNav";
-
-
-
-
 
 const Navbar = () => {
   const [colorTheme, setTheme] = useDarkMode();
@@ -18,61 +14,80 @@ const Navbar = () => {
     } else {
       setShowMobile(true);
     }
-  }
+  };
 
-  
   return (
-    <nav className="pt-8 border-b-2 border-blue-400 flex fixed z-50 top-0 w-full dark:bg-darkGrey dark:text-lightGrey bg-lightGrey text-darkGrey transition">
-
-      <div className="w-full flex  justify-between mx-12">
-
+    <nav className="py-4 border-b-2 border-blue-400 flex fixed z-50 top-0 w-full dark:bg-darkGrey dark:text-lightGrey bg-lightGrey text-darkGrey transition">
+      <div className="w-full flex justify-between mx-12">
         <Link href="/">
-          <a className="flex justify-center items-center">
-            <Image src="/sam_avatar_no_bg.png" width="83" height="79" />
-            <div>
+          <a className="flex justify-center items-center gap-x-4 group">
+            <div className="rounded-full w-[80px] h-[80px] bg-blue-400 p-1 group-hover:scale-105 transition">
+              <div
+                style={{ backgroundImage: 'url("/sdbavatarnobg.png")' }}
+                className="w-full h-full bg-contain bg-no-repeat bg-center"
+              ></div>
+            </div>
+            <div className="min-w-max">
               <h1>Sam Donaghy-Bell</h1>
               <p>Course of Life</p>
             </div>
           </a>
         </Link>
 
-        
         <div className=" my-6 flex justify-center ">
           {/* Desktop Nav */}
           <div className="gap-x-12 hidden md:flex">
-            
-            <Link href="/about">
-              <a>Bio</a>
-            </Link>
+            <div className='hover:scale-105 transition hover:text-blue-400'>
+              <Link href="/about">
+                <a>Bio</a>
+              </Link>
+            </div>
 
-            <Link href="/skills">
-              <a>Skills</a>
-            </Link>
+            <div className='hover:scale-105 transition hover:text-blue-400'>
+              <Link href="/skills">
+                <a>Skills</a>
+              </Link>
+            </div>
 
-            <Link href="/projects">
-              <a>Projects</a>
-            </Link>
+            <div className='hover:scale-105 transition hover:text-blue-400'>
+              <Link href="/projects">
+                <a>Projects</a>
+              </Link>
+            </div>
 
-            <Link href="/blogs">
-              <a>Blog</a>
-            </Link>
+            <div className='hover:scale-105 transition hover:text-blue-400'>
+              <Link href="/blogs">
+                <a>Blog</a>
+              </Link>
+            </div>
 
-              <a href="mailto:samdonaghybell@gmail.com?subject=Howdy!" target="_blank" rel="noopener noreferrer">Get in touch</a>
+            <div className='hover:scale-105 transition hover:text-blue-400'>
+              <a
+                href="mailto:samdonaghybell@gmail.com?subject=Howdy!"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Get in touch
+              </a>
+            </div>
           </div>
           {/*END OF // Desktop Nav */}
 
           {/* MOBILE Nav */}
           <div className="flex md:hidden">
-            <button onClick={toggleMobileNav} className="flex flex-col gap-y-1.5">
+            <button
+              onClick={toggleMobileNav}
+              className="flex flex-col gap-y-1.5"
+            >
               <div className="w-[40px] h-[3px] bg-darkGrey dark:bg-lightGrey"></div>
               <div className="w-[40px] h-[3px] bg-darkGrey dark:bg-lightGrey"></div>
               <div className="w-[40px] h-[3px] bg-darkGrey dark:bg-lightGrey"></div>
             </button>
-            <MobileNav show={showMobile} onClose={() => setShowMobile(false)}/>
+            <MobileNav show={showMobile} onClose={() => setShowMobile(false)} />
           </div>
           {/* END OF //  MOBILE Nav */}
 
-          <button className="darkLightMode transition absolute top-5 right-5">
+          <button className="darkLightMode absolute top-5 right-5 hover:scale-105 transition hover:text-blue-400">
             {colorTheme === "light" ? (
               <svg
                 onClick={() => setTheme("light")}

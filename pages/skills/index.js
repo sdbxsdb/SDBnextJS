@@ -1,10 +1,16 @@
 import { useState } from "react";
 import Link from "next/link";
 import Card from "../../components/Card";
+import Head from 'next/head';
 
 const Skills = () => {
   return (
     <>
+    <Head>
+      <title>Skills | Sam Donaghy-Bell</title>
+      <meta name="keywords" content="Skills" />
+      <meta name="description" content="Here I break down my skills and what I know indept." />
+    </Head>
     <div className="w-full text-center">
       <h1 className="text-4xl mb-4 font-semibold">Abilities</h1>
     </div>
@@ -19,7 +25,7 @@ const Skills = () => {
         />
         <Card
           title="CSS | SCSS"
-          subtitle="&#x2605;&#x2605;&#x2605;&#x2605;"
+          subtitle="&#x2605;&#x2605;&#x2605;&#x2605;&#10027;"
           image="/skills/cssLogo.png"
           content="
             <div>
@@ -29,7 +35,7 @@ const Skills = () => {
         />
         <Card
           title="Tailwind | Bootstrap"
-          subtitle="&#x2605;&#x2605;&#x2605;&#x2605;"
+          subtitle="&#x2605;&#x2605;&#x2605;&#x2605;&#10027;"
           image="/skills/tailwindLogo.png"
           image2="/skills/bootstrapLogo.png"
           content="
@@ -40,7 +46,7 @@ const Skills = () => {
         />
         <Card
           title="Javascript | jQuery"
-          subtitle="&#x2605;&#x2605;&#x2605;"
+          subtitle="&#x2605;&#x2605;&#x2605;&#10027;"
           image="/skills/jsLogo.png"
           image2="/skills/jqueryLogo.png"
           content="
@@ -146,7 +152,7 @@ const Skills = () => {
         />
         <Card
           title="React | NextJS"
-          subtitle="&#x2605;&#10027;"
+          subtitle="&#x2605;&#x2605;"
           image="/skills/reactLogo.png"
           image2="/skills/nextjsLogo.png"
           content="
