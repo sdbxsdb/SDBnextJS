@@ -44,6 +44,24 @@ const Skills = () => {
             In recent projects I&apos;ve been using JIT mode which is a fantastic additon.   It gives me everything out of the box that I was having to add to the config file with the standard mode. </p>
             </div>"
         />
+        
+        <Card
+          title="React | NextJS"
+          subtitle="&#x2605;&#x2605;"
+          image="/skills/reactLogo.png"
+          image2="/skills/nextjsLogo.png"
+          content="
+            <p>
+            This site you&apos;re on now has had many facelifts in it&apos;s lifetime with the most recent one rebuilding it in NextJS. <br><br> 
+            It&apos;s hosted on Vercel and has updated CNAME records with the host to point to the correct server.<br><br>
+            In a recent project I&apos;ve used NextJS to build a loan calculator.  The calculator works out monthly, weekly and fortnight loan repayments depending on loan amount, term length and APR rate. This was then intergrated into a static website. <br><br> I&apos;ve also used VueJs to work with dynamically input user data, pass data from &apos;page&apos; to &apos;page&apos; and display accordingly. <br><br>
+          
+            I&apos;ve also built a simple, single page React app todo list.  It stores new data to a Firebase DB and allows the user to add and remove from the &apos;done&apos; list. 
+            <br><br>
+            I know I&apos;ve barely scratched the surface of Next, Vue, React and the likes but what I&apos;ve done so far has me extremely keen to keep learning. <br><br> The more practical, real world applications I can get the chance to work on the better and I&apos;ll jump at any chance to learn as much of React and it&apos;s frameworks as possible.
+            </p>"
+        />
+
         <Card
           title="Javascript | jQuery"
           subtitle="&#x2605;&#x2605;&#x2605;&#10027;"
@@ -150,22 +168,7 @@ const Skills = () => {
             I do want to increase my PHP skills moving forward and build on the Laravel knowledge I have.  In my portfolio you can find an Instagram copy I made with Blade via a few tutorials.
             </p>"
         />
-        <Card
-          title="React | NextJS"
-          subtitle="&#x2605;&#x2605;"
-          image="/skills/reactLogo.png"
-          image2="/skills/nextjsLogo.png"
-          content="
-            <p>
-            This site you&apos;re on now has had many facelifts in it&apos;s lifetime with the most recent one rebuilding it in NextJS. <br><br> 
-            It&apos;s hosted on Vercel and has updated CNAME records with the host to point to the correct server.<br><br>
-            In a recent project I&apos;ve used NextJS to build a loan calculator.  The calculator works out monthly, weekly and fortnight loan repayments depending on loan amount, term length and APR rate. This was then intergrated into a static website. <br><br> I&apos;ve also used VueJs to work with dynamically input user data, pass data from &apos;page&apos; to &apos;page&apos; and display accordingly. <br><br>
-          
-            I&apos;ve also built a simple, single page React app todo list.  It stores new data to a Firebase DB and allows the user to add and remove from the &apos;done&apos; list. 
-            <br><br>
-            I know I&apos;ve barely scratched the surface of Next, Vue, React and the likes but what I&apos;ve done so far has me extremely keen to keep learning. <br><br> The more practical, real world applications I can get the chance to work on the better and I&apos;ll jump at any chance to learn as much of React and it&apos;s frameworks as possible.
-            </p>"
-        />
+        
         <Card
           title="Debugging"
           subtitle="&#x2605;&#x2605;&#x2605;&#x2605;"
