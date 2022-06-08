@@ -62,7 +62,7 @@ const shoppy = () => {
         </div>
         <div className="iframeWrapper dark:bg-darkGrey bg-lightGrey">
           <iframe
-            className="w-screen h-[calc(100vh-280px)]"
+            className="w-screen h-[calc(100vh-260px)]"
             src="https://react-ts-shop.vercel.app"
           ></iframe>
         </div>

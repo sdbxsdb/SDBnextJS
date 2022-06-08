@@ -1,22 +1,21 @@
 import MoreInfoCard from "../../components/MoreInfoCard";
-import Head from 'next/head';
-
-
+import Head from "next/head";
 
 const cinecopters = () => {
-  return ( 
+  return (
     <>
-    <Head>
-      <title>CineCopters | Sam Donaghy-Bell</title>
-      <meta name="keywords" content="CineCopters" />
-      <meta name="description" content="The first ever brochure site I built with contact forms and stock footage ordering platform." />
-    </Head>
-    <div className="absolute top-[112px] w-full left-0">
-
-      <div className="flex w-full justify-center items-center gap-x-12 h-[80px]">
-
-      <MoreInfoCard
-          content='
+      <Head>
+        <title>CineCopters | Sam Donaghy-Bell</title>
+        <meta name="keywords" content="CineCopters" />
+        <meta
+          name="description"
+          content="The first ever brochure site I built with contact forms and stock footage ordering platform."
+        />
+      </Head>
+      <div className="absolute top-[112px] w-full left-0">
+        <div className="flex w-full justify-center items-center gap-x-12 h-[80px]">
+          <MoreInfoCard
+            content='
           <div>
             <div class="moreInfoContent">
             <p>At the time this was my most in-depth website to date at the time in terms of size and functionality.  Built using HTML 5, PHP, SCSS, Bootstrap 4, JavaScript . 
@@ -42,24 +41,45 @@ const cinecopters = () => {
             </p></div>
             </div>
             '
-        />
+          />
 
-        <a className="underline hover:text-blue-400 transition" href="https://github.com/sdbxsdb/CineCopters" target="_blank" rel="noreferrer">GitHub</a>
-        <a className="underline hover:text-blue-400 transition" href="https://cinecopters.co.uk" target="_blank" rel="noreferrer">Live Site</a>
+          <a
+            className="underline hover:text-blue-400 transition"
+            href="https://github.com/sdbxsdb/CineCopters"
+            target="_blank"
+            rel="noreferrer"
+          >
+            GitHub
+          </a>
+          <a
+            className="underline hover:text-blue-400 transition"
+            href="https://cinecopters.co.uk"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Live Site
+          </a>
+        </div>
+
+        <div className="flex items-center flex-col mb-4">
+          <p className="text-smallerTitle">
+            CineCopters | Drones for Film & TV
+          </p>
+          <small>
+            Please allow time for the external site below to load - it may take
+            a few seconds.
+          </small>
+        </div>
+
+        <div className="iframeWrapper dark:bg-darkGrey bg-lightGrey">
+          <iframe
+            className="w-screen h-[calc(100vh-260px)]"
+            src="https://cinecopters.co.uk"
+          ></iframe>
+        </div>
       </div>
-
-      <div className="flex items-center flex-col mb-4">
-        <p className='text-smallerTitle'>CineCopters | Drones for Film & TV</p>
-        <small>Please allow time for the external site below to load - it may take a few seconds.</small>
-      </div>
-
-      <div className="iframeWrapper dark:bg-darkGrey bg-lightGrey">
-        <iframe className="w-screen h-[calc(100vh-280px)]" src="https://cinecopters.co.uk"></iframe>
-      </div>
-
-    </div>
     </>
   );
-}
- 
+};
+
 export default cinecopters;

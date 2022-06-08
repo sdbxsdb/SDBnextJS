@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const netflix = () => {
   return (
-    <div className="absolute top-[112px] w-full left-0">
+    <div className="w-full">
       <div className="flex w-full justify-center items-center gap-x-12 h-[80px]">
         <MoreInfoCard
           content='
@@ -57,17 +57,26 @@ const netflix = () => {
         <p className="text-smallerTitle">Youtube - Netflix</p>
         <p>
           <cite>
-            ** This site will not work within an iframe for security reasons.
-            Please vist the live site for a demo. **
+            ** Please vist the live site for a demo.  Or watch the video below.
+            **
           </cite>
         </p>
       </div>
 
       <div className="w-full h-full flex flex-col justify-center items-center ">
-        <Link href="https://nextjs-netflix-sdbxsdb.vercel.app/login" passHref>
-          <a className='cursor-pointer flex flex-col items-center' href="https://nextjs-netflix-sdbxsdb.vercel.app/login"
-              target="_blank"
-              rel="noreferrer">
+        <video
+          className="w-10/12"
+          src="/netflixnextjsDemo.mov"
+          controls
+          autoPlay
+        ></video>
+        {/* <Link href="https://nextjs-netflix-sdbxsdb.vercel.app/login" passHref>
+          <a
+            className="cursor-pointer flex flex-col items-center"
+            href="https://nextjs-netflix-sdbxsdb.vercel.app/login"
+            target="_blank"
+            rel="noreferrer"
+          >
             <div
               style={{ backgroundImage: 'url("/netflixLogo.png")' }}
               className="w-[120px] h-[200px] bg-contain bg-no-repeat bg-center animate-pulse"
@@ -76,7 +85,7 @@ const netflix = () => {
               Live Site
             </p>
           </a>
-        </Link>
+        </Link> */}
       </div>
     </div>
   );
