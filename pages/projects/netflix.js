@@ -64,12 +64,10 @@ const netflix = () => {
       </div>
 
       <div className="w-full h-full flex flex-col justify-center items-center ">
-        <video
-          className="w-10/12"
-          src="/netflixnextjsDemo.mov"
-          controls
-          autoPlay
-        ></video>
+        <iframe
+          className="w-screen h-[calc(100vh-280px)]"
+          src="https://www.youtube.com/embed/3wdUUcJIcrM"
+        ></iframe>
         {/* <Link href="https://nextjs-netflix-sdbxsdb.vercel.app/login" passHref>
           <a
             className="cursor-pointer flex flex-col items-center"
