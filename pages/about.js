@@ -96,7 +96,7 @@ const About = () => {
             <ul className="ml-6">
               <li>
                 I&apos;m a Northern Irish record holder and British Champion
-                Compond Barebow Archer 🎯.
+                Compound Bare-bow Archer 🎯.
               </li>
               <li>
                 I&apos;m a UK and Ireland licensed UAV pilot ✈️ and I&apos;m
