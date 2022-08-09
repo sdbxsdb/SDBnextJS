@@ -35,7 +35,7 @@ const About = () => {
             years turned Software Developer.  I currently work as a Software
             Engineer for a global company at their Belfast base.
             <br />
-            <br />I traveled all over the world as a Camera Engineer looking
+            <br />I travelled all over the world as a Camera Engineer looking
             after cameras and teams. <br />
             Positioning them 
             <small>
