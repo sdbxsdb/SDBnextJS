@@ -37,7 +37,7 @@ const Projects = () => {
             <div className="flex justify-start w-full transition border-b-2 dark:border-lightGrey border-darkGrey group">
               <Link href={'/projects/cinecopters'}>
                 <a className="flex items-center justify-start w-full group">
-                  <p className="transition transform group-hover:text-blue-400 group-hover:translate-x-4">CineCopters - (Brochure & Order Reqests)</p>
+                  <p className="transition transform group-hover:text-blue-400 group-hover:translate-x-4">CineCopters - (Brochure & Order Requests)</p>
                 </a>
               </Link>
             </div>

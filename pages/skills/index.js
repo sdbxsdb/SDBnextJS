@@ -12,7 +12,7 @@ const Skills = () => {
       <meta name="description" content="Here I break down my skills and what I know indept." />
     </Head>
     <div className="w-full text-center">
-      <h1 className="text-4xl mb-4 font-semibold">Abilities</h1>
+      <h1 className="text-4xl mb-4 font-semibold">Skills</h1>
     </div>
       <div className="flex flex-wrap justify-center">
         <Card
