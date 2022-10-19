@@ -47,7 +47,7 @@ const Skills = () => {
         
         <Card
           title="React | NextJS"
-          subtitle="&#x2605;&#x2605;"
+          subtitle="&#x2605;&#x2605;&#x2605;"
           image="/skills/reactLogo.png"
           image2="/skills/nextjsLogo.png"
           content="
@@ -85,7 +85,7 @@ const Skills = () => {
         />
         <Card
           title="APIs"
-          subtitle="&#x2605;&#x2605;&#10027;"
+          subtitle="&#x2605;&#x2605;&#x2605;"
           image="/skills/apiLogo.png"
           content="
             <p>Using PostMan and Javascript I&apos;ve worked with and customised a number of free and paid for APIs for client and personal use.  <br><br>These include but aren&apos;t limited to:
@@ -103,9 +103,9 @@ const Skills = () => {
             </p>"
         />
         <Card
-          title="Snipcart | Shopify"
+          title="Stripe | Snipcart | Shopify"
           subtitle="&#x2605;&#x2605;&#x2605;"
-          image="/skills/snipcartLogo.png"
+          image="/skills/stripeLogo.png"
           image2="/skills/shopifyLogo.png"
           content="
             <p>
