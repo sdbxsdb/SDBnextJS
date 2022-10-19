@@ -27,11 +27,11 @@ export default function Home() {
         <div className="flex flex-1 ml-4 flex-col justify-center my-8 md:my-0">
           <div className="flex flex-col flex-1 justify-center">
             <h2 className="text-2xl flex flex-col">
-              <span>Hi! 👋 🙂 I&apos;m Sam Donaghy-Bell.</span>
+              <span>Hi!  I&apos;m Sam Donaghy-Bell.</span>
             </h2>
             <h2 className="text-2xl my-8 md:my-0">
               <span className="hidden md:flex">      </span>
-              I&apos;m a developer based in Belfast N.Ireland.
+              I&apos;m a Software Engineer / Developer based in Belfast N.Ireland.
             </h2>
             <br className="hidden md:flex" />
             <p className="text-2xl">
