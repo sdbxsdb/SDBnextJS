@@ -43,24 +43,24 @@ const netflix = () => {
         >
           GitHub
         </a>
-        <a
+        {/* <a
           className="underline transition hover:text-blue-400"
           href="https://nextjs-netflix-sdbxsdb.vercel.app/login"
           target="_blank"
           rel="noreferrer"
         >
           Live Site
-        </a>
+        </a> */}
       </div>
 
       <div className="flex flex-col items-center mb-4">
         <p className="text-smallerTitle">Youtube - Netflix</p>
-        <p>
+        {/* <p>
           <cite>
             ** Please vist the live site for a demo.  Or watch the video below.
             **
           </cite>
-        </p>
+        </p> */}
       </div>
 
       <div className="w-full h-full flex flex-col justify-center items-center ">

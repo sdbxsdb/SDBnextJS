@@ -19,9 +19,17 @@ const Projects = () => {
         <div className="flex flex-col items-start w-1/2 gap-y-12">
 
             <div className="flex justify-start w-full transition border-b-2 dark:border-lightGrey border-darkGrey group">
+              <Link href={'/projects/moviedb'}>
+                <a className="flex items-center justify-start w-full group">
+                  <p className="transition transform group-hover:text-blue-400 group-hover:translate-x-4">NextJS & Typescript - Database Search</p>
+                </a>
+              </Link>
+            </div>
+
+            <div className="flex justify-start w-full transition border-b-2 dark:border-lightGrey border-darkGrey group">
               <Link href={'/projects/netflix'}>
                 <a className="flex items-center justify-start w-full group">
-                  <p className="transition transform group-hover:text-blue-400 group-hover:translate-x-4">Youtube - Netflix</p>
+                  <p className="transition transform group-hover:text-blue-400 group-hover:translate-x-4">NextJS & Tailwind - Youtube Netflix</p>
                 </a>
               </Link>
             </div>
@@ -29,7 +37,7 @@ const Projects = () => {
             <div className="flex justify-start w-full transition border-b-2 dark:border-lightGrey border-darkGrey group">
               <Link href={'/projects/stripeShop'}>
                 <a className="flex items-center justify-start w-full group">
-                  <p className="transition transform group-hover:text-blue-400 group-hover:translate-x-4">Stripe Shop</p>
+                  <p className="transition transform group-hover:text-blue-400 group-hover:translate-x-4">React & Stripe - eCommerce</p>
                 </a>
               </Link>
             </div>
@@ -53,7 +61,7 @@ const Projects = () => {
             <div className="flex justify-start w-full transition border-b-2 dark:border-lightGrey border-darkGrey group">
               <Link href={'/projects/coffeeShops'}>
                 <a className="flex items-center justify-start w-full group">
-                  <p className="transition transform group-hover:text-blue-400 group-hover:translate-x-4">Coffee Connoisseur - (Location Search & Voting)</p>
+                  <p className="transition transform group-hover:text-blue-400 group-hover:translate-x-4">NextJS - Coffee Shop Location Search</p>
                 </a>
               </Link>
             </div>
@@ -61,7 +69,7 @@ const Projects = () => {
             <div className="flex justify-start w-full transition border-b-2 dark:border-lightGrey border-darkGrey group">
               <Link href={'/projects/shoppy'}>
                 <a className="flex items-center justify-start w-full group">
-                  <p className="transition transform group-hover:text-blue-400 group-hover:translate-x-4">Faux Shop - (React and Typescript Demo)</p>
+                  <p className="transition transform group-hover:text-blue-400 group-hover:translate-x-4">React and Typescript - eCommerce</p>
                 </a>
               </Link>
             </div>
@@ -69,7 +77,7 @@ const Projects = () => {
             <div className="flex justify-start w-full transition border-b-2 dark:border-lightGrey border-darkGrey group">
               <Link href={'/projects/fauxInstagram'}>
                 <a className="flex items-center justify-start w-full group">
-                  <p className="transition transform group-hover:text-blue-400 group-hover:translate-x-4">Faux Instagram - (Laravel Project)</p>
+                  <p className="transition transform group-hover:text-blue-400 group-hover:translate-x-4">Laravel - Faux Instagram</p>
                 </a>
               </Link>
             </div>
