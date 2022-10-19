@@ -30,6 +30,7 @@ const moviedb = () => {
             <ul class="listElements themeColorText">
             <li>NextJS along with TypeScript</li>
             <li>Tailwind</li>
+            <li>SSR</li>
             <li>The Movie DB API</li>
             <li>React Query</li>
             <li>Vercel to deploy</li>

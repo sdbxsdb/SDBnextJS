@@ -52,6 +52,8 @@ const getcrew = () => {
             <ul class="listElements themeColorText flex flex-col gap-y-2">
             <li>NextJS</li>
             <li>Context</li>
+            <li>SSR</li>
+            <li>SSG</li>
             <li>Cookies</li>
             <li>Supabase Interface and API</li>
             <li>Stripe Interface and API</li>
