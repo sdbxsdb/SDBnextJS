@@ -23,7 +23,7 @@ const getcrew = () => {
             <br/>
             <br/>
             <ul class="listElements themeColorText flex flex-col gap-y-2">
-            <li>Register to the platform via passwordless magic link signin or Google sign in</li>
+            <li>Register to the platform via passwordless magic link sign in or Google sign in</li>
             <li>Create and customise their professional profile including uploading a profile image and CV.</li>
             <li>Update their availability status at will</li>
             <li>Edit each aspect of their profile (apart from email) and delete their profile at will</li>
@@ -61,7 +61,7 @@ const getcrew = () => {
             
             <br>
             <br>
-            I&apos;m extreamly pleased with how the platform has turned out and throughly enjoyed the process of using NextJS, Supabase and Stripe together. From inital wireframe design to being live and accepting payments it took me 54 days.
+            I&apos;m extremely pleased with how the platform has turned out and thoroughly enjoyed the process of using NextJS, Supabase and Stripe together. From initial wireframe design to being live and accepting payments it took me 54 days.
 
 
             
@@ -98,7 +98,7 @@ const getcrew = () => {
           </small>
           <br />
           <p>
-            **iframe can distort the view of the site - if so please vist the
+            **iframe can distort the view of the site - if so please visit the
             live site for a proper preview.**
           </p>
         </div>

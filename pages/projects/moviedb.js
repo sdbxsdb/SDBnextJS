@@ -21,7 +21,7 @@ const moviedb = () => {
             <p>A quick project I put together using NextJS, Typescript and Tailwind.  
             <br/>
             <br/>
-            The app allows the user to view popular movies with infinite scroll, search for spesific movies and then view details about that movie. 
+            The app allows the user to view popular movies with infinite scroll, search for specific movies and then view details about that movie. 
             <br/>
             
             <br/><br/>

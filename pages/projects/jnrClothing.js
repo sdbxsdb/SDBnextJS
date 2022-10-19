@@ -18,7 +18,7 @@ const jnrclothing = () => {
             <li>Live filtering when typing built with Alpine JS</li>
             <li>Full CMS control</li>
             <li>Snipcart API stock keeping, checkout and payment intergration</li>
-            <li>Live price changing depening on size chosen and amount</li>
+            <li>Live price changing depending on size chosen and amount</li>
             <li>Navbar basket quantity update</li>
             <li>AJAX contact submission form</li>
             <li>Basket editing with live reload</li>

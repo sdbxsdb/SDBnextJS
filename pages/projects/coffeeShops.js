@@ -21,7 +21,7 @@ const coffeeShops = () => {
             <p>A tutorial I coded along with to make this NextJS App.  
             <br/>
             <br/>
-            The app allows the user to view and upvote some staticly generated coffee shops as well as do the same for coffee shops found based on their location. 
+            The app allows the user to view and upvote some statically generated coffee shops as well as do the same for coffee shops found based on their location. 
             <br/>
             
             <br/><br/>
@@ -51,7 +51,7 @@ const coffeeShops = () => {
       <div className="flex flex-col items-center mb-4">
         <p className='text-smallerTitle'>Location based coffee shop search &amp; voting</p>
         <small>Please allow time for the external site below to load - it may take a few seconds.</small>
-        <p><cite>** The live location may not work in some browsers due to iframe restrictions.   If this is the case please vist the live site for a working demo. **</cite></p>
+        <p><cite>** The live location may not work in some browsers due to iframe restrictions.   If this is the case please visit the live site for a working demo. **</cite></p>
       </div>
 
       <div className="iframeWrapper dark:bg-darkGrey bg-lightGrey">
