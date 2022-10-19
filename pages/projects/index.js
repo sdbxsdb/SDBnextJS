@@ -19,9 +19,17 @@ const Projects = () => {
         <div className="flex flex-col items-start w-1/2 gap-y-12">
 
             <div className="flex justify-start w-full transition border-b-2 dark:border-lightGrey border-darkGrey group">
+              <Link href={'/projects/getcrew'}>
+                <a className="flex items-center justify-start w-full group">
+                  <p className="transition transform group-hover:text-blue-400 group-hover:translate-x-4">NextJS & Supabase - User Login and Payment Platform</p>
+                </a>
+              </Link>
+            </div>
+
+            <div className="flex justify-start w-full transition border-b-2 dark:border-lightGrey border-darkGrey group">
               <Link href={'/projects/moviedb'}>
                 <a className="flex items-center justify-start w-full group">
-                  <p className="transition transform group-hover:text-blue-400 group-hover:translate-x-4">NextJS & Typescript - Database Search</p>
+                  <p className="transition transform group-hover:text-blue-400 group-hover:translate-x-4">NextJS & Typescript - Movie Database Search</p>
                 </a>
               </Link>
             </div>
@@ -61,7 +69,7 @@ const Projects = () => {
             <div className="flex justify-start w-full transition border-b-2 dark:border-lightGrey border-darkGrey group">
               <Link href={'/projects/coffeeShops'}>
                 <a className="flex items-center justify-start w-full group">
-                  <p className="transition transform group-hover:text-blue-400 group-hover:translate-x-4">NextJS - Coffee Shop Location Search</p>
+                  <p className="transition transform group-hover:text-blue-400 group-hover:translate-x-4">NextJS - Coffee Shop Live Location Search</p>
                 </a>
               </Link>
             </div>
@@ -82,13 +90,13 @@ const Projects = () => {
               </Link>
             </div>
 
-            <div className="flex justify-start w-full transition border-b-2 dark:border-lightGrey border-darkGrey group">
+            {/* <div className="flex justify-start w-full transition border-b-2 dark:border-lightGrey border-darkGrey group">
               <Link href={'/projects/kidsGame'}>
                 <a className="flex items-center justify-start w-full group">
                   <p className="transition transform group-hover:text-blue-400 group-hover:translate-x-4">McDonalds Farm - (Interactive Childrens Game)</p>
                 </a>
               </Link>
-            </div>
+            </div> */}
 
             
             
